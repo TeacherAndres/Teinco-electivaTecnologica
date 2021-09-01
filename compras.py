@@ -15,8 +15,8 @@ for x in range(CantCompra):
     if(MedCompra=="1"):
         ValCompra+=ValCompra
         Puntos+=10
-        print("Usted compro: ", InfoCompra,"Valor"," por un valor de: ",(ValCompra), "por el medio de: ",MedCompra, "puntos: ",Puntos)
-        print("Usted sumo: ",(CantCompra*6))
+        print("Usted compro: ", InfoCompra,"Valor"," por un valor de: ",(ValCompra), "por el medio de: ",MedCompra)
+        print("Usted sumo: ",Puntos ,"  puntos")
     elif (MedCompra=="2"):
         ValCompra+=ValCompra
         print("Usted compro: ", InfoCompra," Veces por un valor de: ",(ValCompra), "por el medio de: ",MedCompra)
