@@ -44,14 +44,9 @@ while not finalizar:
 
 
     elif choice == "3":
-        print("")
+        for x in range (numeropersonas):
+            print("Cuarto en el que se hospedara: ", disponible, "Nombre: ", nombres[x], "Edad: ", edades[x], "acudiente: ", acudientes[x])
     elif choice =="4":
         finalizar = True
     else:
-
-
-
-
-
-
-        print("")
+        print("Ingrese un numero valido: ")
