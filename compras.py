@@ -12,7 +12,7 @@ ValorTotalAcumulado=0
 Puntos=0
 for x in range(CantCompra):
    
-    InfoCompra= input("Digite que va comprar: ")
+    InfoCompra= input("Digite que compró: ")
     ValCompra= int(input("Digite el valor de la compra: "))
     MedCompra= int(input("Por que medio compra?:\n 1= Presencial\n 2=Internet\n 3=otro\n"))
     if(MedCompra==1):
