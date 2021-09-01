@@ -44,4 +44,10 @@ while not finalizar:
     elif choice =="4":
         finalizar = True
     else:
-        print("Número no valido")
+
+
+
+
+
+
+        print("")

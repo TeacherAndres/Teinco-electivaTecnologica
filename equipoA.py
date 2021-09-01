@@ -1,3 +1,4 @@
+#Software
 #Software  || Online: 6 puntos, Presencial: 10 puntos, Otros: 1 punto
 
 InfoCompra= input("Digite que va comprar: ")
@@ -11,3 +12,4 @@ if(MedCompra=="pre"):
 else:
     print("Usted compro: ", InfoCompra,"por un valor de: ",(ValCompra*CantCompra), "por el medio de: ",MedCompra)
     print("Usted sumo: ",(CantCompra*6))
+
