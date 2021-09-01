@@ -1,6 +1,19 @@
-#Dividamos el trabajo en 4
-
-#Funcion del hotel que es un array de 10 espacios
-#For con el requerimiento de datos
-#For con la paginacion de las personas en los cuartos
-#Ejecucion y IF
+finalizar = False
+while not finalizar:
+    print("Menu")
+    print("1.Asignar cuarto")
+    print("2.Asignar datos de personas")
+    print("3.Datos de las personas")
+    print("4. salir")
+    choice = input(":: ")
+    if choice == "1":
+        print("Asignar cuarto")
+    elif choice == "2":
+        print("Asignar datos de personas")
+    elif choice == "3":
+        print("")
+    elif choice =="4":
+        finalizar = True
+    else:
+        print("Numero no valido")
+#menu
