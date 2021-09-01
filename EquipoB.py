@@ -11,8 +11,12 @@ while not finalizar:
     choice = input(":: ")
   
     if choice == "1":
-        print("Asignar cuarto")
-
+        disponible=int((input("Cual cuarto desea recuerde que esta del 1 al 10 \n")))
+        otro = disponible
+        if disponible >= 0 and disponible <= 10:
+            print("Se registro su cuarto correctamente continue a la opcion dos donde podra hacer el registro")
+        else:
+            print("Cuarto no disponible")     
 
     elif choice == "2":
         print("Asignar datos de personas")
