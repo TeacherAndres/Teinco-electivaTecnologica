@@ -103,7 +103,7 @@ print(b.get('direccion ','CALLE falas 123')) # Isaac Ochoa
 #print(b.get('dicCumpuestoI'))
 
 
-
+#Brandon Rodriguez print(b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion'))
 
 
 
