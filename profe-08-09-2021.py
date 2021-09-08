@@ -99,7 +99,7 @@ b = {
     "dicCumpuestoI":a
 }
 print(b)
-print(b.get('CALLE falas 123')) # Isaac Ochoa
+print(b.get('direccion ','CALLE falas 123')) # Isaac Ochoa
 #print(b.get('dicCumpuestoI'))
 
 
