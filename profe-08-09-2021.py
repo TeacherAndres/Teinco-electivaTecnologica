@@ -107,4 +107,27 @@ print(b.get('dicCumpuestoI'))
 
 
 
+
 #Brandon Rodriguez print(b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+direccion= b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion')
+#direccion= b.get('dicCumpuestoI')
+#dir= direccion.get('dicDatosPEr')
+#final=dir.get('direccion')
+print(direccion)
+#Andres Leiva
