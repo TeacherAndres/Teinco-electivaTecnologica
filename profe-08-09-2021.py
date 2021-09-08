@@ -121,6 +121,7 @@ print(b)
 
 
 
+<<<<<<< Updated upstream
 
 
 #direccion= b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion')
@@ -150,3 +151,12 @@ print(b.get('dicCumpuestoI')
 .get('dicDatosPEr')
 .get('direccion'))
 #Nicolas Bedoya
+=======
+direccion= b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion')
+direccion= b.get('dicCumpuestoI')
+dir= direccion.get('dicDatosPEr')
+final=dir.get('direccion')
+print(direccion)
+print(dir)
+#Andres Leiva
+>>>>>>> Stashed changes
