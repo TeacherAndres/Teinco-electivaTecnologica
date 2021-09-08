@@ -101,7 +101,11 @@ b = {
 print(b)
 print(b.get('dicCumpuestoI'))
 
-
+#Nicolas Bedoya
+print(b.get('dicCumpuestoI')
+.get('dicDatosPEr')
+.get('direccion'))
+#Nicolas Bedoya
 
 
 
@@ -127,7 +131,7 @@ print(b.get('dicCumpuestoI'))
 
 #direccion= b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion')
 direccion= b.get('dicCumpuestoI')
-dir= direccion.get('dicDatosPEr')
+#dir= direccion.get('dicDatosPEr')
 final=dir.get('direccion')
 #print("la direccion es: ",direccion)
 print("la direccion es: ",final)
