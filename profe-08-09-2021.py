@@ -100,3 +100,31 @@ b = {
 }
 print(b)
 print(b.get('dicCumpuestoI'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+direccion= b.get('dicCumpuestoI')
+dir= direccion.get('dicDatosPEr')
+final=dir.get('direccion')
+print(final)
+#Andres Leiva
