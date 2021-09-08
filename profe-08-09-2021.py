@@ -100,3 +100,9 @@ b = {
 }
 print(b)
 print(b.get('dicCumpuestoI'))
+
+
+
+
+valorFinal= discS.get('direccion')
+print(valorFinal)
