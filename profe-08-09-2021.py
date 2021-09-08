@@ -122,7 +122,7 @@ print(b.get('dicCumpuestoI'))
 
 
 
-
+direccion= b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion')
 direccion= b.get('dicCumpuestoI')
 dir= direccion.get('dicDatosPEr')
 final=dir.get('direccion')
