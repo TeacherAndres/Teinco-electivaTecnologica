@@ -58,9 +58,103 @@ print(datosUsr)
 #UPDATE
 print("******************** UPDATE ***************")
 dicI = {'a':1,'b':2,'c':3,'d':4}
+discS = {'a':1,'b':2,'e':3,'f':4}
 
-dicI.update({'f':4,'h':5})
+dicI.update({'f':4})
 print(dicI)
 dict= {'valorUltimo':'este es'}
 dicI.update(dict)
 print(dicI)
+# SEGUNDA FORMA DE CREAR UN DICCIONARIOS
+"""
+
+print("******************** CREAR DICCIONARIO SEGUNDA FORMA  ***************")
+d2 = dict([
+      ('Nombre', 'Sara'),
+      ('Edad', 27),
+      ('Documento', 1003882),
+])
+print (d2)
+"""
+#FOR
+print("******************** RECORRE DICCIONARIO ***************")
+for x in perro:
+    print(perro[x])
+
+#ANIDAR DICCIONARIO
+print("******************** ADICIONAR DICCIONARIO ***************")
+
+dicI = {'a':1,'b':2,'c':3,'d':4}
+discS = {'nombre':'Raul','apellido':'MElano','Telefono':312313,'direccion':'CALLE falas 123'}
+
+a = {
+    "dicLEtras":dicI,
+    "dicDatosPEr":discS
+}
+print(a)
+print("******************** ADICIONAR DICCIONARIO DENTRO DE DICCIONARIO ***************")
+
+b = {
+    "dicDatosPerro":perro,
+    "dicCumpuestoI":a
+}
+print(b)
+print(b.get('dicCumpuestoI')) 
+
+
+print(b['dicCumpuestoI']['dicDatosPEr']['direccion'])
+i =  b.get('dicCumpuestoI')
+s = i.get('dicDatosPEr')
+f = s.get('direccion')
+print(f)
+r=b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion')
+print(r)
+
+
+
+
+
+
+#Brandon Rodriguez print(b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#direccion= b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion')
+#direccion= b.get('dicCumpuestoI')
+#dir= direccion.get('dicDatosPEr')
+#final=dir.get('direccion')
+#print("la direccion es: ",direccion)
+#print("la direccion es: ",final)
+#Andres Leiva
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Nicolas Bedoya
+print(b.get('dicCumpuestoI')
+.get('dicDatosPEr')
+.get('direccion'))
