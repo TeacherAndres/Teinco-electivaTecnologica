@@ -132,3 +132,42 @@ final=dir.get('direccion')
 #print("la direccion es: ",direccion)
 print("la direccion es: ",final)
 #Andres Leiva
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Salcedo
+direccionU=a.get('dicDatosPEr')
+print(direccionU.get('direccion'))
