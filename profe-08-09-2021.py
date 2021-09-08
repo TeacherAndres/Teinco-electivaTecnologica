@@ -108,6 +108,9 @@ print(b.get('dicCumpuestoI'))
 
 
 
+#Brandon Rodriguez print(b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion'))
+
+
 
 
 
