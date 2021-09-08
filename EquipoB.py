@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #menu
 
 finalizar = False
@@ -50,3 +51,11 @@ while not finalizar:
         finalizar = True
     else:
         print("Ingrese un numero valido: ")
+
+#Crear sotfware
+#¿Que cuerto de Hotel quiere? (1-10)
+#¿Cuantas personas van a estar en el cuarto?
+#Datos basicos de la persona
+#impirmir info de la persona
+#si la persona es menor de edad tiene que tener acudiente
+

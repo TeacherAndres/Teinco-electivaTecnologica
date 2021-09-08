@@ -99,7 +99,8 @@ b = {
     "dicCumpuestoI":a
 }
 print(b)
-print(b.get('direccion','CALLE falas 123')) # Isaac Ochoa
+print(b.get('CALLE falas 123')) # Isaac Ochoa
+#print(b.get('dicCumpuestoI'))
 
 
 
@@ -125,11 +126,11 @@ print(b.get('direccion','CALLE falas 123')) # Isaac Ochoa
 
 """
 #direccion= b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion')
-direccion= b.get('dicCumpuestoI')
-dir= direccion.get('dicDatosPEr')
-final=dir.get('direccion')
+#direccion= b.get('dicCumpuestoI')
+#dir= direccion.get('dicDatosPEr')
+#final=dir.get('direccion')
 #print("la direccion es: ",direccion)
-print("la direccion es: ",final)
+#print("la direccion es: ",final)
 #Andres Leiva
 
 
@@ -169,4 +170,10 @@ print("la direccion es: ",final)
 #Salcedo
 direccionU=a.get('dicDatosPEr')
 print(direccionU.get('direccion'))
+
+#Nicolas Bedoya
+print(b.get('dicCumpuestoI')
+.get('dicDatosPEr')
+.get('direccion'))
+#Nicolas Bedoya
 """
