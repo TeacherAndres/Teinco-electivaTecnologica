@@ -150,3 +150,14 @@ print(b.get('dicCumpuestoI')
 .get('dicDatosPEr')
 .get('direccion'))
 #Nicolas Bedoya
+
+
+
+
+
+
+
+
+#Andres beltran
+print("Su direccion es: ")
+print(b.get('dicCumpuestoI').get('dicDatosPEr').get('direccion'))
