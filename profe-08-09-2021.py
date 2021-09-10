@@ -154,7 +154,30 @@ print(r)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Salcedo
+direccionU=a.get('dicDatosPEr')
+print(direccionU.get('direccion'))
+
 #Nicolas Bedoya
 print(b.get('dicCumpuestoI')
 .get('dicDatosPEr')
 .get('direccion'))
+#Nicolas Bedoya
