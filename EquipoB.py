@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 #menu
 
 finalizar = False
