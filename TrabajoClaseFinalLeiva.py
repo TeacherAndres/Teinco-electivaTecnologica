@@ -48,136 +48,104 @@ hotel={
 }    
 
 while True:
-    menu()    
-    
-    def registrar():
-        #print("crt1, crt2, crt3, crt4")
+    menu()
+
+    def regis():
+        cntPersonas= int(input("Digite la cantidad de personas que van a reservar cuarto: "))
+        nombre=[]
+        apellido=[]
+        telefono=[]
+        email=[]
+        for x in range(cntPersonas):
+            dgNombre=input("Digite su nombre: ")
+            nombre.insert(x,dgNombre)
+
+            dgApellido=input("Digite su apellido: ")
+            apellido.insert(x,dgApellido)
+
+            dgTelefono=input("Digite su telefono: ")
+            telefono.insert(x,dgTelefono)
+
+            dgEmail=input("Digite su email: ")
+            email.insert(x,dgEmail)
+
+        hotel.update({'cuarto2': {'nombre': nombre, 'apellido': apellido, 'telefono': telefono, 'email': email} })
+        print(hotel)
+        input("hotel: ")
+
+    def ver():
+        crVer= input("Digite el cuarto que desea ver: ")
+        if(crVer)==("crt1"):
+            #crVer= crt1
+            if (len(crt1)>0):
+                print(crt1)
+                input("Salir: ")
+            else: 
+                input("Cuarto vacio")
+
+        if(crVer)==("crt2"):
+            #crVer= crt2
+            if (len(crt2)>0):
+                print(crt2)
+                input("Salir: ")
+            else: 
+                input("Cuarto vacio")
+
+        if(crVer)==("crt3"):
+            crVer= crt3
+            if (len(crVer)>0):
+                print(crt3)
+                input("Salir: ")
+            else: 
+                input("Cuarto vacio")
+
+        if(crVer)==("crt4"):
+            crVer= crt4
+            if (len(crVer)>0):
+                print(crt4)
+                input("Salir: ")
+            else:
+                input("Cuarto vacio") 
+
+    def verificarDisponibilidad():
         crDeseado= input("Digite el cuarto que desea ocupar: ")
 
         if(crDeseado)==("crt1"):
             crDeseado= crt1
             if (len(crDeseado)>0):
-                print("cuarto ocupado: ")
+                input("Cuarto ocupado: ")
             else: 
-                cntPersonas= int(input("Digite la cantidad de personas que van a reservar cuarto: "))
-                nombre=[]
-                apellido=[]
-                telefono=[]
-                email=[]
-                for x in range(cntPersonas):
-                    dgNombre=input("Digite su nombre: ")
-                    nombre.insert(x,dgNombre)
-
-                    dgApellido=input("Digite su apellido: ")
-                    apellido.insert(x,dgApellido)
-
-                    dgTelefono=input("Digite su telefono: ")
-                    telefono.insert(x,dgTelefono)
-
-                    dgEmail=input("Digite su email: ")
-                    email.insert(x,dgEmail)
-
-                hotel.update({'cuarto2': {'nombre': nombre, 'apellido': apellido, 'telefono': telefono, 'email': email} })
-                print(hotel)
-                input("hotel: ")
+                regis()
 
         if(crDeseado)==("crt2"):
             crDeseado= crt2
             if (len(crDeseado)>0):
-                print("cuarto ocupado: ")
+                input("Cuarto ocupado: ")
             else: 
-                cntPersonas= int(input("Digite la cantidad de personas que van a reservar cuarto: "))
-        nombre=[]
-        apellido=[]
-        telefono=[]
-        email=[]
-        for x in range(cntPersonas):
-            dgNombre=input("Digite su nombre: ")
-            nombre.insert(x,dgNombre)
-
-            dgApellido=input("Digite su apellido: ")
-            apellido.insert(x,dgApellido)
-
-            dgTelefono=input("Digite su telefono: ")
-            telefono.insert(x,dgTelefono)
-
-            dgEmail=input("Digite su email: ")
-            email.insert(x,dgEmail)
-
-        hotel.update({'cuarto2': {'nombre': nombre, 'apellido': apellido, 'telefono': telefono, 'email': email} })
-        print(hotel)
-        input("hotel: ")
+                regis()
 
         if(crDeseado)==("crt3"):
             crDeseado= crt3
             if (len(crDeseado)>0):
-                print("cuarto ocupado: ")
+                input("Cuarto ocupado: ")
             else: 
-                cntPersonas= int(input("Digite la cantidad de personas que van a reservar cuarto: "))
-        nombre=[]
-        apellido=[]
-        telefono=[]
-        email=[]
-        for x in range(cntPersonas):
-            dgNombre=input("Digite su nombre: ")
-            nombre.insert(x,dgNombre)
-
-            dgApellido=input("Digite su apellido: ")
-            apellido.insert(x,dgApellido)
-
-            dgTelefono=input("Digite su telefono: ")
-            telefono.insert(x,dgTelefono)
-
-            dgEmail=input("Digite su email: ")
-            email.insert(x,dgEmail)
-
-        hotel.update({'cuarto2': {'nombre': nombre, 'apellido': apellido, 'telefono': telefono, 'email': email} })
-        print(hotel)
-        input("hotel: ")
+                regis()
 
         if(crDeseado)==("crt4"):
             crDeseado= crt4
             if (len(crDeseado)>0):
-                print("cuarto ocupado: ")
+                input("Cuarto ocupado: ")
             else: 
-                cntPersonas= int(input("Digite la cantidad de personas que van a reservar cuarto: "))
-        nombre=[]
-        apellido=[]
-        telefono=[]
-        email=[]
-        for x in range(cntPersonas):
-            dgNombre=input("Digite su nombre: ")
-            nombre.insert(x,dgNombre)
+                regis()
 
-            dgApellido=input("Digite su apellido: ")
-            apellido.insert(x,dgApellido)
-
-            dgTelefono=input("Digite su telefono: ")
-            telefono.insert(x,dgTelefono)
-
-            dgEmail=input("Digite su email: ")
-            email.insert(x,dgEmail)
-
-        hotel.update({'cuarto2': {'nombre': nombre, 'apellido': apellido, 'telefono': telefono, 'email': email} })
-        print(hotel)
-        input("hotel: ")
 
     opcionMenu = input("Ingrese una opción valida: ")
     if opcionMenu=='1':
-        registrar()
+        verificarDisponibilidad()
     elif opcionMenu=='2':
-        print(hotel)
-        input("Consultar cuartos: ")
+        regis()
+        input("Sal: ")
     elif opcionMenu=='3':
-        print("Salir del Hotel: ")
-        def tablaN():
-            i=1
-            vD1 = int(input("Ingrese un valor \n"))
-            print("Tabla del '",vD1,"': ")
-            while(i<=10):
-                print("'",vD1,"' * '",i,"' = '",vD1*i,"'")
-                i+=1
-        tablaN()
         input("Pulse enter para salir")
     elif opcionMenu=="9":
         break
