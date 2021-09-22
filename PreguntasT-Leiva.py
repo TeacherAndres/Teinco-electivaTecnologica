@@ -30,13 +30,13 @@ global duracion
 
 def pre1():
     print("Pregunta #01: ")
+    global puntos
+    global frecuencia
+    global duracion
     while True:
         print("¿Cúal es el resultado de la suma de 2 + 3? ")
         r1=int(input("Digite el resultado: "))
         if(r1!=5):
-            global puntos
-            global frecuencia
-            global duracion
             frecuencia= random.randint(1000,8000)
             duracion+=1000
             print("Repuesta incorrecta! \U0001F616 Frecuencia actual: ",frecuencia," duracion actual: ",duracion)
@@ -48,13 +48,13 @@ def pre1():
 
 def pre2():
     print("Pregunta #02: ")
+    global puntos
+    global frecuencia
+    global duracion
     while True:
         print("¿Cúal es el resultado de la resta de 7 - 5: ")
         r2=int(input("Digite el resultado: "))
         if(r2!=2):
-            global puntos
-            global frecuencia
-            global duracion
             frecuencia= random.randint(1000,8000)
             duracion+=1000
             print("Repuesta incorrecta! \U0001F616 Frecuencia actual: ",frecuencia," duracion actual: ",duracion)
@@ -66,13 +66,13 @@ def pre2():
 
 def pre3():
     print("Pregunta #03: ")
+    global puntos
+    global frecuencia
+    global duracion
     while True:
         print("¿Cúal es el resultado de la multiplicacion de 3 * 3: ")
         r3=int(input("Digite el resultado: "))
         if(r3!=9):
-            global puntos
-            global frecuencia
-            global duracion
             frecuencia= random.randint(1000,8000)
             duracion+=1000
             print("Repuesta incorrecta! \U0001F616 Frecuencia actual: ",frecuencia," duracion actual: ",duracion)
@@ -84,13 +84,13 @@ def pre3():
 
 def pre4():
     print("Pregunta #04: ")
+    global puntos
+    global frecuencia
+    global duracion
     while True:
         print("¿Cúal es el resultado de la division entre 1/1: ")
         r4=int(input("Digite el resultado: "))
         if(r4!=1):
-            global puntos
-            global frecuencia
-            global duracion
             frecuencia= random.randint(1000,8000)
             duracion+=1000
             print("Repuesta incorrecta! \U0001F616 Frecuencia actual: ",frecuencia," duracion actual: ",duracion)
@@ -102,13 +102,13 @@ def pre4():
 
 def pre5():
     print("Pregunta #05: ")
+    global puntos
+    global frecuencia
+    global duracion
     while True:
         print("¿Cúal es el resultado de la potencia de 2'2: ")
         r5=int(input("Digite el resultado: "))
         if(r5!=4):
-            global puntos
-            global frecuencia
-            global duracion
             frecuencia= random.randint(1000,8000)
             duracion+=1000
             print("Repuesta incorrecta! \U0001F616 Frecuencia actual: ",frecuencia," duracion actual: ",duracion)
