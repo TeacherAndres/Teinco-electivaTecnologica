@@ -91,9 +91,9 @@ def RegistrarCuarto():
             elif Confirmacion2==2:
                 print("")
             else:
-                print("Por favor ingrese una opcion correcta ('1' o '2'")
+                print("Por favor ingrese una opcion correcta ('1' o '2')")
         else:
-            print("Por favor ingrese una opcion correcta ('1' o '2'")
+            print("Por favor ingrese una opcion correcta ('1' o '2')")
 
 def ConsultarCuarto():
     x=0
